@@ -13,10 +13,11 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "goatcounter",
+      domain: "thinh71.goatcounter.com",
     },
     locale: "en-US",
-    baseUrl: "https://github.com/thinh71",
+    baseUrl: "https://thinh71.github.io/PersonalNote/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
